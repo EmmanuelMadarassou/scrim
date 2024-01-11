@@ -1,0 +1,31 @@
+:host {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar {
+	height: 80px;
+	padding: var(--content-padding);
+	box-shadow: 0px 5px 15px var(--shadow-color);
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 1;
+}
+
+.brand-logo {
+	height: 60px;
+	display: block;
+	width: 60px;
+}
+
+.content {
+	padding: var(--content-padding);
+}
+
+.brand-logo.isRLPage {
+	content: url('/assets/img/rocket-logo.png');
+}
+
+.brand-logo.isLOLPage {
+	content: url('/assets/img/lol-logo.png');
+}

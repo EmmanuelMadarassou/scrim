@@ -1,0 +1,42 @@
+<form
+	[formGroup]="playerForm"
+	(ngSubmit)="onSubmit()"
+>
+	<p>
+		<label for="pseudo">Pseudo </label>
+		<input
+			type="text"
+			id="pseudo"
+			name="pseudo"
+			formControlName="pseudoInput"
+		/>
+	</p>
+
+	<p>
+		<label for="gameLevel">Game level </label>
+		<select
+			id="gameLevel"
+			name="gameLevel"
+			formControlName="gameLevelInput"
+		>
+			<option value="Unranked">Unranked</option>
+			<option value="Bronze">Bronze</option>
+			<option value="Silver">Silver</option>
+			<option value="Gold">Gold</option>
+			<option value="Platine">Platine</option>
+			<option value="Diamond">Diamond</option>
+			<option value="Champion">Champion</option>
+			<option value="GC">Grand Champion</option>
+			<option value="SSL">Super Sonic Legend</option>
+		</select>
+	</p>
+
+	<p>
+		<button
+			type="submit"
+			[disabled]="!playerForm.valid"
+		>
+			Submit
+		</button>
+	</p>
+</form>

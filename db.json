@@ -1,0 +1,101 @@
+{
+  "player": [
+    {
+      "pseudo": "dza",
+      "gameLevel": "Bronze",
+      "id": 7
+    },
+    {
+      "pseudo": "dza",
+      "gameLevel": "Bronze",
+      "id": 8
+    },
+    {
+      "pseudo": "dza",
+      "gameLevel": "Bronze",
+      "id": 9
+    },
+    {
+      "pseudo": "Kikdead",
+      "gameLevel": "Champion",
+      "id": 10
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "OnlyHope",
+      "diminutif": "OH",
+      "team_level": "Champion",
+      "players": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Special Good Game",
+      "diminutif": "SGG",
+      "team_level": "Champion",
+      "players": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Olders",
+      "diminutif": "TO",
+      "team_level": "Champion",
+      "players": [
+        "5",
+        "6"
+      ]
+    }
+  ],
+  "scrimResearch": [
+    {
+      "id": 1,
+      "teamId": 1,
+      "availability": [
+        {
+          "date": "13/10/2023",
+          "time": "18:00",
+          "duration": "60"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "teamId": 2,
+      "availability": [
+        {
+          "date": "13/10/2023",
+          "time": "19:00",
+          "duration": "60"
+        },
+        {
+          "date": "13/10/2023",
+          "time": "18:00",
+          "duration": "120"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "teamId": 3,
+      "availability": [
+        {
+          "date": "14/10/2023",
+          "time": "15:00",
+          "duration": "60"
+        },
+        {
+          "date": "11/10/2023",
+          "time": "19:00",
+          "duration": "30"
+        }
+      ]
+    }
+  ]
+}

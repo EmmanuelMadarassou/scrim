@@ -1,0 +1,12 @@
+<div
+	class="scrim-proposal-container"
+	(click)="selectScrimProposal(teamChoosen.innerHTML)"
+>
+	<p #teamChoosen>
+		{{ teamName }}
+	</p>
+	<p>Level: {{ teamLevel }}</p>
+	<p>Looking for champion team level</p>
+	<time-slot-displayer />
+	<button class="m-1 btn btn-secondary">Contact team</button>
+</div>

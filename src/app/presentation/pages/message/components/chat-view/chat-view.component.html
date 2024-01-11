@@ -1,0 +1,25 @@
+<div>
+	<div #AnnouncePreview>
+		<p>{{ announceAuthor }}</p>
+		<p>{{ announceState }}</p>
+		<img
+			src="{{ announceImage }}"
+			alt=""
+		/>
+	</div>
+	<div #chat>
+		<ul class="row">
+			<li *ngFor="let index of [0, 1, 2, 3]">
+				<div [ngClass]="message.author.isConnected ? 'regular-message' : 'correspondent-message'">
+					<p>{{ message.content }}</p>
+					<p>{{ message.date }}</p>
+					<p>{{ message.state }}</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div #chatInput>
+		<textarea type="text"></textarea>
+		<button (click)="sendMessage()">Send</button>
+	</div>
+</div>

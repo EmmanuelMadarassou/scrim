@@ -1,0 +1,15 @@
+<div></div>
+<div>
+	<div class="modal-header">
+		<h4 class="modal-title">Contact {{ scrimSelected }}</h4>
+		<button
+			type="button"
+			class="btn btn-close"
+			aria-label="Close"
+			(click)="close('Cross click')"
+		></button>
+	</div>
+	<div class="modal-body">
+		<contact-form (onSubmit)="formSubmit($event)" />
+	</div>
+</div>

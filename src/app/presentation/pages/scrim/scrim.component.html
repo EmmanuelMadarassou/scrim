@@ -1,0 +1,13 @@
+<main>
+	<div class="bg-img"></div>
+	<div class="content h-100 container align-items-center justify-content-center">
+		<h1 class="row">Hello world rocket league</h1>
+		<button
+			class="btn primary"
+			[routerLink]="['/player/editor']"
+		>
+			Player management
+		</button>
+		<scrim-list (onElementSelection)="openContactModal($event)" />
+	</div>
+</main>

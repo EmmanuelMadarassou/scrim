@@ -1,0 +1,15 @@
+.time-slot-minimal {
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: 0px 10px 0px 10px;
+	border: 2px solid red;
+}
+
+.time-slot-minimal p {
+	display: table-cell;
+	width: inherit;
+	height: inherit;
+	vertical-align: middle;
+	text-align: center;
+}
